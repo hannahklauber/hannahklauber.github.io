@@ -161,7 +161,7 @@ EUREF Campus 19, Torgauer Str. 12-15, 10829 Berlin, Germany
 
 
 ::: footer-item
-<p class="copyright">© 2025 Hannah C. Klauber. All rights reserved.</p>
+<p class="copyright">© 2025 Hannah Klauber. All rights reserved.</p>
 :::
 
 </footer>
