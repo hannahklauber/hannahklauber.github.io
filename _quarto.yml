@@ -3,7 +3,7 @@ project:
 
 title: "Hannah C. Klauber"
 site:
-  output-dir: "docs"
+  output-dir: "_site"
   render:
     - "*"
   navbar:
