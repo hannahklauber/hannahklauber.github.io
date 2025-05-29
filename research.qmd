@@ -1,0 +1,167 @@
+---
+title: ""
+site: 
+  output-dir: "_site"
+  navbar:
+    - text: "Home"
+      href: about.html
+    - text: "Research"
+      href: research.html
+    - text: "CV"
+      href: cv.html
+format:
+  html:
+    theme: none  # Fully customized using CSS
+    css: styles.css
+---
+
+
+<header class="site-title">
+  <h1>Hannah Klauber</h1>
+</header>
+
+<nav class="navbar">
+  <a href="about.html">Home</a>
+  <a href="research.html"class="active">Research</a>
+  <a href="cv.html">CV</a>
+</nav>
+
+
+<div class="research-container">
+  <div class="research-text">
+  
+  
+  <!--1. PUBLISHED-->
+<p style="font-weight: 500;"><span style="font-size: 19px;">Journal Publications</span></p>
+
+   <!--LEZ paper-->
+<span style="font-weight: normal;color: #2576c6;"><a href="https://www.aeaweb.org/articles?id=10.1257/pol.20210729" target="_blank">Killing Prescriptions Softly: Low Emission Zones and Child Health from Birth to School</a></span><br>
+<span style="font-weight: 450;">
+American Economic Journal: Economic Policy</span>, 2024<br>
+with Felix Holub, Nicolas Koch, Nico Pestel, Nolan Ritter, and Alexander Rohlf<br>
+<span style="font-size: 12px;">Media: 
+<a href="https://www.aerztezeitung.de/Medizin/Weniger-Asthma-bei-Stadt-Kindern-durch-Umweltzonen-449572.html" target="_blank">Ärztezeitung</a>,
+<a href="https://www.augsburger-allgemeine.de/panorama/luftverschmutzung-studie-ueber-abgase-und-asthma-beweist-umweltzonen-wirken-id70786776.html" target="_blank">Augsburger Allgemeine</a>,
+<a href="https://www.fluxfm.de/g/n3l7lon76hcpvifhze7n/Weniger-Asthma-bei-in-Umweltzonen-lebenden-Kindern-or-FluxFM-Good-News-32plsygZnMWYmbAcoB3rvl" target="_blank">FluxFM</a>,
+<a href="https://www.focus.de/auto/fahrverbote-wirken-studie-beweist-grossen-effekt-fuer-die-gesundheit_id_259948312.html" target="_blank">Focus</a>,
+<a href="https://www.aok.de/pp/gg/magazine/gesundheit-gesellschaft-11-2024/luftverschmutzung-kindergesundheit/" target="_blank">G+G</a>,
+<a href="https://www.oncohemato.be/nl/nieuws/minder-astma-bij-stadskinderen-door-lage-emissiezones.html" target="_blank">OncoHemato</a>,
+<a href="https://www.netdoktor.de/news/asthma-bei-kindern-umweltzonen-wirken/" target="_blank">NetDoktor</a>,
+<a href="https://perspective-daily.de/article/3145-einmal-durchatmen-bitte-umweltzonen-wirken/probiere" target="_blank">Perspective Daily</a>,
+<a href="https://www.spiegel.de/auto/umweltzone-weniger-feinstaub-weniger-asthma-bei-kindern-a-9e980fd6-0485-4f66-a6c1-680cbb5c9c93" target="_blank">Spiegel</a>,
+<a href="https://background.tagesspiegel.de/mobilitaet/umweltzonen-fuehren-zu-weniger-asthma?__cf_chl_tk=OR7XpiTsx5Ph8.Tp9KSVhYAahDkixhBgITFZtXKizbE-1716039206-0.0.1.1-1471" target="_blank">Tagesspiegel Background</a>,
+<a href="https://taz.de/!6011418/" target="_blank">taz</a>,
+<a href="https://www1.wdr.de/nachrichten/rheinland/weniger-asthma-bei-kindern-in-umweltzonen-100.html" target="_blank">WDR</a>,
+<a href="https://www1.wdr.de/fernsehen/aktuelle-stunde/alle-videos/aktuelle-stunde-clip-aktuelle-stunde--23-07-2024-100.html" target="_blank">WDR Aktuelle Stunde</a>,
+<a href="https://www.zdf.de/nachrichten/briefing/good-news-verkehr-umwelt-zdfheute-update-100.html" target="_blank">ZDFheute</a></span><br>
+<!--# NPJ paper -->
+<br>
+<span style="font-weight: normal;color: #2576c6;">
+    <a href="https://www.nature.com/articles/s44333-024-00020-6" target="_blank">The Impact of the Bangkok Metro Expansion via Big Taxi GPS Probe Data</a>
+</span><br>
+<span style="font-weight: 450;">npj Sustainable Mobility and Transport</span>, 2025<br>
+with Eva Ayaragarnchanakul, Florian Nachtigall, Felix Wagner, Jia-wei Hu, and Felix Creutzig<br>
+
+<br>
+
+
+
+  <!--2. WORKING PAPERS-->
+<p style="font-weight: 500;"><span style="font-size: 19px;">Working Papers</span></p>
+<!--# Heat and Racial segregation-->
+<span style="font-weight: normal;color: #2576c6;">Heat and Experienced Racial Segregation</span><br>
+Revise & Resubmit at <span style="font-weight: 450;">Journal of Environmental Economics and Management</span><br>
+with Till Baldenius and Nicolas Koch <br>
+ <br>
+ <!--# AU paper-->
+<span style="font-weight: normal;color: #2576c6;">The Immediate and Lasting Effects of Heat Waves On Workers</span><br>
+EAERE 2025 Conference Paper, with Nicolas Koch and Nico Pestel<br>
+<br>
+<!--# Heat elderly IZA paper-->
+<span style="font-weight: normal;color: #2576c6;"><a href="https://www.iza.org/publications/dp/15996/determinants-of-heat-risk-in-an-aging-population-a-machine-learning-approach" target="_blank">Determinants of Heat Risk in an Aging Population: A Machine Learning Approach</a></span><br>
+IZA Discussion Paper No. 15996,
+ with Nicolas Koch<br>
+<a href="https://mwv-open.de/chapters/e/10.32745/9783954666270-5" target="_blank">[related publication in German]</a><br>
+<!--# COVID paper thermal inversions-->
+<br>
+<span style="font-weight: normal;color: #2576c6;"><a href="https://arxiv.org/abs/2011.11127" target="_blank">Effects of Thermal Inversion Induced Air Pollution on COVID-19</a></span><br>
+Arxiv E-print 2011.11127, with Nicolas Koch and Sebastian Kraus<br>
+<br>
+
+
+
+  <!--3. WORK IN PROGRESS-->
+<p style="font-weight: 500;"><span style="font-size: 19px;">Selected work in progress</span></p>
+<!--# Poellen paper-->
+<span style="font-weight: normal;color: #2576c6;">The Public Health Effects of Pollen Exposure</span><br>
+<i></i> with Zoe Wang and Nicolas Koch </i><br>
+<br>
+<!--# Coal Paper-->
+<span style="font-weight: normal;color: #2576c6;">The Cross-border Health Benefits of Coal Phase-Out in Europe</span><br>
+<i></i> with Zoe Wang, Gianluca Guidi, and Nicolas Koch</i> <br>
+<!--# Harvard paper-->
+ <!--<br>
+ <!--<span style="font-weight: normal;color: #2576c6;">Heat Waves and Hospital Admissions in the US</span><br>
+ <!--<i></i> with Francesca Dominici, Danielle Braun, Michelle Audirac, Scott Delaney, Daniel Mork, Ellen Meara, Michelle Bell, Falco J. Bargagli-Stoffi </i><br>-->
+
+
+<br>
+
+
+
+
+<!-- 4. OTHER PUBLICATION -->
+<p style="font-weight: 500;"><span style="font-size: 19px;">Other publications</span></p> 
+
+<!-- Versorgungsreport -->
+<span style="font-weight: normal;color: #2576c6;"><a href="https://mwv-open.de/chapters/e/10.32745/9783954666270-5" target="_blank">Individuelle und regionale Risikofaktoren für hitzebedingte Hospitalisierungen der über 65-Jährigen in Deutschland</a></span><br>
+In: Versorgungs-Report: Klima und Gesundheit, 2021, 
+with Nicolas Koch<br>
+<a href="https://www.iza.org/publications/dp/15996/determinants-of-heat-risk-in-an-aging-population-a-machine-learning-approach" target="_blank">[related working paper in English]</a>  &nbsp;&nbsp;  <a href="https://mcc-berlin.shinyapps.io/Hitze_Hospitalisierung/" target="_blank">[interactive web-tool]</a><br>
+<span style="font-size: 12px;">Media: 
+<a href="https://www.aerztezeitung.de/Politik/Aeltere-muessen-bei-Hitze-haeufiger-ins-Krankenhaus-420267.html" target="_blank">Ärztezeitung</a>,
+<a href="https://ondemand-mp3.dradio.de/file/dradio/2021/06/08/erwaermung_und_umweltschaeden_beeintraechtigen_die_dlf_20210608_1145_c171a638.mp3" target="_blank">Deutschlandfunk</a>,
+<a href="https://blendle.com/i/frankfurter-allgemeine-zeitung/aok-warnt-vor-zunehmenden-hitze-einweisungen-in-kliniken/bnl-faz-20210609-6256699" target="_blank">FAZ</a>,
+<a href="https://www.sueddeutsche.de/gesundheit/gesundheit-jeder-zweite-besorgt-wegen-haeufigerer-hitzeperioden-dpa.urn-newsml-dpa-com-20090101-210608-99-910421" target="_blank">Süddeutsche Zeitung</a>,
+<a href="https://www.tagesspiegel.de/politik/klimawandel-macht-krank-klinikeinweisungen-an-heissen-tagen-koennten-sich-versechsfachen/27265256.html" target="_blank">Tagesspiege</a>,
+<a href="https://www.zeit.de/news/2021-06/08/jeder-zweite-besorgt-wegen-haeufigerer-hitzeperioden" target="_blank">Zeit (article)</a>,
+<a href="https://www.zeit.de/politik/deutschland/2022-06/hitze-gefahr-tote-hitzeperioden-klimawandel/komplettansicht#hitze-daten-recherche-3-tab" target="_blank">Zeit (visualization)</a>
+</span><br>
+<!--<p style="font-weight: 500;"><span style="color: #2576c6;">Selected Work in Progress</span></p> -->
+
+  </div>
+</div>
+
+
+<footer class="footer">
+
+::::: footer-container
+::: footer-item
+
+<p><strong>Email:</strong></p>
+
+<a href="mailto:hannah.klauber@pik-potsdam.de">hannah.klauber\@pik-potsdam.de</a>
+
+</p>
+
+<p><strong>Address:</strong></p>
+
+EUREF Campus 19, Torgauer Str. 12-15, 10829 Berlin, Germany
+
+</p>
+<hr> 
+<a href="https://github.com/hannahklauber" target="_blank">
+  <i class="fa-brands fa-github"></i> 
+</a> <a href="https://scholar.google.com/citations?user=0_-lQNIAAAAJ&hl=en&oi=sra" target="_blank">
+<i class="ai ai-google-scholar"></i>
+</a> <a href="https://www.linkedin.com/in/hannah-klauber/" target="_blank">
+  <i class="fa-brands fa-linkedin"></i> 
+</a> 
+
+
+
+::: footer-item
+<p class="copyright">© 2025 Hannah C. Klauber. All rights reserved.</p>
+:::
+
+</footer>

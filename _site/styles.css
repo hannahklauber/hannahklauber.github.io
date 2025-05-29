@@ -1,0 +1,252 @@
+/* Header container: Include the background for the entire section */
+.header {
+  background-color: #f7f8f9;  /* Light grey color (can be changed) */
+  padding: 0;                  /* Removes padding to eliminate extra space */
+}
+
+/* Site title styling */
+.site-title {
+  text-align: center;            /* Center the header */
+  margin: 0;                      /* Remove margin to avoid space below title */
+  padding: 20px 0;                /* Add vertical padding to the title area */
+  font-size: 2rem;                /* Adjust font size */
+  font-family: 'Graphik';         /* Set font type */
+  font-weight: normal;            /* Normal weight, not bold */
+  color: #333;                    /* Adjust text color */
+  background-color: #f7f8f9;     /* Same background color as the header */
+}
+
+/* Adjust h1 tag directly if inside .site-title */
+.site-title h1 {
+  margin: 0;
+  font-size: 2rem;              /* Larger font size for h1 */
+  font-family: 'Graphik', medium; /* Set font type */
+  font-weight: normal;            /* Normal weight */
+  color: #333;                    /* Title color */
+}
+
+/* General body styling */
+body {
+  font-family: "Graphik", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  background: #f7f8f9;           /* Same background color as header */
+  border-bottom: 1px solid #ddd; /* Border below the navbar */
+  padding: 1em 0;                 /* Adds space inside the navbar */
+  position: sticky;
+  top: 0;
+  font-weight: normal;
+  z-index: 100;
+}
+
+
+
+/* Navbar link styling */
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: normal;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #2576c6;
+   font-weight: 500; 
+}
+
+.navbar a.active {
+  color: #2576c6;
+  font-weight: 500;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.about-text {
+  flex: 0.9; /* Make text narrower */
+}
+
+.profile-photo {
+  flex: 2.1; /* Allow more space for image if needed */
+  max-width: 300px;  /* Adjust based on your image's aspect ratio */
+  height: auto;
+}
+
+
+.about-text h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+   font-weight: normal; /* Makes all h2 elements non-bold */
+}
+
+
+
+
+
+.about-text p {
+  font-size: 1em;
+}
+
+/* General section styling */
+.section {
+   font-weight: normal; /* Makes all h2 elements non-bold */
+  padding: 3em 1em;
+  max-width: 800px;
+  margin: auto;
+}
+
+.section h2 {
+   font-weight: normal; /* Makes all h2 elements non-bold */
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile-photo {
+    margin-bottom: 1em;
+  }
+}
+body {
+  font-family: "Graphik", sans-serif; /* Change "Arial" to your preferred font */
+}.footer-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center all main items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 20px;
+  background-color: #f8f9fa; /* Light grey background */
+  border-top: 1px solid #e7e7e7;
+  font-family: "Graphik", sans-serif;
+  font-size: 0.9em; 
+  position: relative; /* Enables absolute positioning for copyright */
+  text-align: center; /* Center text within footer items */
+}
+
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-photo {
+    order: -1; /* Move image above the text */
+    max-width: 250px; /* Optional: control image size on small screens */
+    height: auto;
+  }
+
+  .about-text {
+    width: 90%;
+  }
+}
+
+.footer-item {
+  margin-bottom: 10px;
+}
+
+.footer-item h3 {
+  font-size: 1.0em;
+  margin-bottom: 0.5em;
+}
+
+.footer-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-item li {
+  margin-bottom: 0.5em;
+}
+
+.footer-item a {
+  text-decoration: none;
+   font-size: 1.0em;
+  color: #333;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-item p {
+  line-height: 1.0;   /* Set line height to a tighter value */
+}
+
+.footer-item i {
+  margin-right: 0.5em;
+  color: #333;
+}
+
+.copyright {
+  position: absolute; /* Allows precise positioning */
+  bottom: 10px; /* Distance from the bottom */
+  left: 10px; /* Distance from the left */
+  font-size: 0.75rem; /* Smaller font size */
+  color: #aaa; /* Light gray color */
+  text-align: left;
+}
+
+hr{
+  border: none; /* Removes the default border */
+  height: 1px; /* Sets the thickness of the line */
+  background-color: #e7e7e7; /* Light grey color */
+  width: 60%; /* Adjusts the width of the line */
+  margin: 20px auto; /* Centers the line and adds vertical spacing */
+}
+
+footer .footer-item strong {
+  font-weight: 500;  /* Sets the font weight to normal */
+}
+
+footer .footer-item i {
+  font-size: 1.1em; /* Increase size for all icons */
+   color: #5a5a5a;
+}
+
+a:hover {
+  color: #2576c6;  /* Change the text color when hovering over the link */
+   font-weight: 500; 
+}
+
+a:hover i {
+  color: #2576c6;  /* Change icon color on hover */
+   font-weight: 500; 
+}
+
+
+/* Center the container on the page */
+.research-container {
+  display: flex;
+  justify-content: center; /* Centers the container horizontally */
+  padding: 20px;
+}
+
+/* Left-align the text inside the container */
+.research-text {
+  text-align: left; /* Left align the text */
+  max-width: 800px;  /* Optionally, restrict the width of the content */
+  width: 100%;
+}
+
+a {
+  color: inherit; /* Inherit the color from the parent element */
+}
+

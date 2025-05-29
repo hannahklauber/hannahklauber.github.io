@@ -1,0 +1,82 @@
+---
+title: ""
+site: 
+  output-dir: "_site"
+  navbar:
+    - text: "Home"
+      href: about.html
+    - text: "Research"
+      href: research.html
+    - text: "CV"
+      href: cv.html
+format:
+  html:
+    theme: none  # Fully customized using CSS
+    css: styles.css
+---
+
+
+::: header-space
+:::
+
+
+<header class="site-title">
+  <h1>Hannah Klauber</h1>
+</header>
+
+<nav class="navbar">
+  <a href="about.html"class="active">Home</a>
+  <a href="research.html">Research</a>
+  <a href="cv.html">CV</a>
+</nav>
+
+
+<!-- Grey space between title and navbar -->
+
+<section id="about" class="section">
+
+::::::: about-container
+::: about-text
+I am a researcher in environmental and health economics and lab leader of the <span style="color: #2576c6;"><a href="https://www.pik-potsdam.de/en/institute/labs/policy-evaluation/governance" target="_blank" >Policy Evaluation Lab</a></span> at <span style="color: #2576c6;"><a href="https://www.pik-potsdam.de/en" target="_blank">Potsdam Institute for Climate Impact Research (PIK)</a></span>.
+
+My research seeks to evaluate the real-word impacts of public policies and inform their design and implementation, with a focus on environmental sustainability, public health, and human well-being.
+
+Grounded in econometrics, my work draws on quasi-experimental methods, machine learning algorithms, and micro-level data.
+:::
+
+<img src="assets/hannah.png" alt="Hannah Klauber" class="profile-photo"/>
+
+</section>
+
+<footer class="footer">
+
+::::: footer-container
+::: footer-item
+
+<p><strong>Email:</strong></p>
+
+<a href="mailto:hannah.klauber@pik-potsdam.de">hannah.klauber\@pik-potsdam.de</a>
+
+</p>
+
+<p><strong>Address:</strong></p>
+
+EUREF Campus 19, Torgauer Str. 12-15, 10829 Berlin, Germany
+
+</p>
+<hr> 
+<a href="https://github.com/hannahklauber" target="_blank">
+  <i class="fa-brands fa-github"></i> 
+</a> <a href="https://scholar.google.com/citations?user=0_-lQNIAAAAJ&hl=en&oi=sra" target="_blank">
+<i class="ai ai-google-scholar"></i>
+</a> <a href="https://www.linkedin.com/in/hannah-klauber/" target="_blank">
+  <i class="fa-brands fa-linkedin"></i> 
+</a> 
+
+
+
+::: footer-item
+<p class="copyright">© 2025 Hannah C. Klauber. All rights reserved.</p>
+:::
+
+</footer>
