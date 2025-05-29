@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hannahklauber.github.io/about.html</loc>
-    <lastmod>2025-05-29T15:20:13.211Z</lastmod>
-  </url>
-  <url>
     <loc>https://hannahklauber.github.io/cv.html</loc>
     <lastmod>2025-05-29T15:25:52.426Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hannahklauber.github.io/index.html</loc>
+    <lastmod>2025-05-29T15:33:42.343Z</lastmod>
   </url>
   <url>
     <loc>https://hannahklauber.github.io/research.html</loc>
     <lastmod>2025-05-29T15:20:41.674Z</lastmod>
   </url>
   <url>
-    <loc>https://hannahklauber.github.io/index.html</loc>
-    <lastmod>2025-05-29T15:33:42.343Z</lastmod>
+    <loc>https://hannahklauber.github.io/about.html</loc>
+    <lastmod>2025-05-29T15:20:13.211Z</lastmod>
   </url>
 </urlset>
