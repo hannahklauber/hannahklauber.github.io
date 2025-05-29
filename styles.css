@@ -249,11 +249,14 @@ a:hover i {
 a {
   color: inherit; /* Inherit the color from the parent element */
 }
+
 .pdf-container {
   width: 100%;
-  max-width: 850px;
-  margin: auto;
-  height: 100vh; /* Take full height on desktop */
+  max-width: 800px;
+  margin: 2em auto;
+  height: 90vh; /* Takes 90% of viewport height */
+  display: flex;
+  flex-direction: column;
 }
 
 .pdf-container iframe {
@@ -262,10 +265,35 @@ a {
   border: none;
 }
 
-/* Mobile override */
+/* Visibility classes */
+.desktop-only {
+  display: block;
+}
+.mobile-only {
+  display: none;
+}
+
+/* Responsive rules */
 @media (max-width: 768px) {
-  .pdf-container {
-    height: 90vh; /* Slightly less than full viewport height */
-    width: 95%;
+  .desktop-only {
+    display: none !important;
   }
+  .mobile-only {
+    display: block !important;
+  }
+}
+
+/* Download button */
+a.button {
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  background-color: #2576c6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+a.button:hover {
+  background-color: #1e5ba3;
 }
