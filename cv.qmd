@@ -27,10 +27,13 @@ format:
 </nav>
 
 
-<div class="pdf-container">
-  
-<embed src="assets/CV_Hannah.pdf" width="80%" height="600px" type="application/pdf">
-</div>
+::: {.pdf-container}
+
+<iframe src="assets/CV_Hannah.pdf" title="CV PDF"></iframe>
+
+:::
+
+
 
 
 <footer class="footer">
